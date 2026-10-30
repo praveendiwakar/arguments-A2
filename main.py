@@ -1,0 +1,14 @@
+def cube(number):
+    return number * number * number
+
+def by_three(number):
+    if number % 3 == 0:
+        return cube(number)
+    else:
+        return False 
+
+a = by_three(9)
+b = by_three(4)
+
+print(a)
+print(b)
